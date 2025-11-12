@@ -1,9 +1,19 @@
-# scheduling-tool
+Technical Work Program Scheduler
 
-One-line: CSV-driven scheduling tool (Python).
+Standalone Python mini-application that automates scheduling of integrated oil and gas field development activities — drilling, facilities deployment, and related tasks — using the client’s templates and conventions.
 
-Quick start:
-1. Create venv: python3 -m venv .venv && source .venv/bin/activate
-2. Install deps (if any): pip install -r requirements.txt
-3. Run: python path/to/your_script.py --csv path/to/your.csv --out out.csv
+Quick start
+git clone https://github.com/SanmTex/Technical-Work-Program-Scheduler.git
+cd Technical-Work-Program-Scheduler
 
+python3 -m venv .venv
+source .venv/bin/activate
+
+# install dependencies if you have requirements.txt
+pip install -r requirements.txt
+
+# run (adjust script/module path as needed)
+python src/scheduler.py --csv examples/sample.csv --out examples/out_summary.csv
+
+Expected output
+Integrated field devleopment activities Gantt chart
