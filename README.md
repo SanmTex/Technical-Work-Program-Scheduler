@@ -9,10 +9,10 @@ cd Technical-Work-Program-Scheduler
 python3 -m venv .venv
 source .venv/bin/activate
 
-# install dependencies if you have requirements.txt
+install dependencies if you have requirements.txt
 pip install -r requirements.txt
 
-# run (adjust script/module path as needed)
+run (adjust script/module path as needed)
 python src/scheduler.py --csv examples/sample.csv --out examples/out_summary.csv
 
 Expected output
