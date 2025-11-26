@@ -5,6 +5,7 @@ from matplotlib.dates import DateFormatter
 import tkinter as tk
 from tkinter import filedialog
 import textwrap
+from PIL import Image, ImageTk
 
 
 def generate_plot():
@@ -170,3 +171,10 @@ generate_button.pack()
 
 # Run the Tkinter event loop
 root.mainloop()
+
+
+
+
+
+
+
